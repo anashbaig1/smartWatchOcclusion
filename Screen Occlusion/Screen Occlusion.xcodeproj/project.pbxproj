@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AE307792D615F9200F12AC8 /* Screen Occlusion Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8AE307782D615F9200F12AC8 /* Screen Occlusion Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AE3077A2D615F9200F12AC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE3076C2D615F9100F12AC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AE307772D615F9200F12AC8;
+			remoteInfo = "Screen Occlusion Watch App";
+		};
+		8AE3078B2D615F9300F12AC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE3076C2D615F9100F12AC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AE307772D615F9200F12AC8;
+			remoteInfo = "Screen Occlusion Watch App";
+		};
+		8AE307952D615F9300F12AC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE3076C2D615F9100F12AC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AE307772D615F9200F12AC8;
+			remoteInfo = "Screen Occlusion Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8AE307A12D615F9400F12AC8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8AE307792D615F9200F12AC8 /* Screen Occlusion Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8AE307722D615F9200F12AC8 /* Screen Occlusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Occlusion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE307782D615F9200F12AC8 /* Screen Occlusion Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Occlusion Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE3078A2D615F9300F12AC8 /* Screen Occlusion Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Screen Occlusion Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE307942D615F9300F12AC8 /* Screen Occlusion Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Screen Occlusion Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8AE3077C2D615F9200F12AC8 /* Screen Occlusion Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Screen Occlusion Watch App";
+			sourceTree = "<group>";
+		};
+		8AE3078D2D615F9300F12AC8 /* Screen Occlusion Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Screen Occlusion Watch AppTests";
+			sourceTree = "<group>";
+		};
+		8AE307972D615F9400F12AC8 /* Screen Occlusion Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Screen Occlusion Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AE307752D615F9200F12AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE307872D615F9300F12AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE307912D615F9300F12AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AE3076B2D615F9100F12AC8 = {
+			isa = PBXGroup;
+			children = (
+				8AE3077C2D615F9200F12AC8 /* Screen Occlusion Watch App */,
+				8AE3078D2D615F9300F12AC8 /* Screen Occlusion Watch AppTests */,
+				8AE307972D615F9400F12AC8 /* Screen Occlusion Watch AppUITests */,
+				8AE307732D615F9200F12AC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AE307732D615F9200F12AC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AE307722D615F9200F12AC8 /* Screen Occlusion.app */,
+				8AE307782D615F9200F12AC8 /* Screen Occlusion Watch App.app */,
+				8AE3078A2D615F9300F12AC8 /* Screen Occlusion Watch AppTests.xctest */,
+				8AE307942D615F9300F12AC8 /* Screen Occlusion Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AE307712D615F9200F12AC8 /* Screen Occlusion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE307A22D615F9400F12AC8 /* Build configuration list for PBXNativeTarget "Screen Occlusion" */;
+			buildPhases = (
+				8AE307702D615F9200F12AC8 /* Resources */,
+				8AE307A12D615F9400F12AC8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AE3077B2D615F9200F12AC8 /* PBXTargetDependency */,
+			);
+			name = "Screen Occlusion";
+			packageProductDependencies = (
+			);
+			productName = "Screen Occlusion";
+			productReference = 8AE307722D615F9200F12AC8 /* Screen Occlusion.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		8AE307772D615F9200F12AC8 /* Screen Occlusion Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE3079E2D615F9400F12AC8 /* Build configuration list for PBXNativeTarget "Screen Occlusion Watch App" */;
+			buildPhases = (
+				8AE307742D615F9200F12AC8 /* Sources */,
+				8AE307752D615F9200F12AC8 /* Frameworks */,
+				8AE307762D615F9200F12AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8AE3077C2D615F9200F12AC8 /* Screen Occlusion Watch App */,
+			);
+			name = "Screen Occlusion Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Screen Occlusion Watch App";
+			productReference = 8AE307782D615F9200F12AC8 /* Screen Occlusion Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AE307892D615F9300F12AC8 /* Screen Occlusion Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE307A52D615F9400F12AC8 /* Build configuration list for PBXNativeTarget "Screen Occlusion Watch AppTests" */;
+			buildPhases = (
+				8AE307862D615F9300F12AC8 /* Sources */,
+				8AE307872D615F9300F12AC8 /* Frameworks */,
+				8AE307882D615F9300F12AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AE3078C2D615F9300F12AC8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8AE3078D2D615F9300F12AC8 /* Screen Occlusion Watch AppTests */,
+			);
+			name = "Screen Occlusion Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Screen Occlusion Watch AppTests";
+			productReference = 8AE3078A2D615F9300F12AC8 /* Screen Occlusion Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AE307932D615F9300F12AC8 /* Screen Occlusion Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE307A82D615F9400F12AC8 /* Build configuration list for PBXNativeTarget "Screen Occlusion Watch AppUITests" */;
+			buildPhases = (
+				8AE307902D615F9300F12AC8 /* Sources */,
+				8AE307912D615F9300F12AC8 /* Frameworks */,
+				8AE307922D615F9300F12AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AE307962D615F9300F12AC8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8AE307972D615F9400F12AC8 /* Screen Occlusion Watch AppUITests */,
+			);
+			name = "Screen Occlusion Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Screen Occlusion Watch AppUITests";
+			productReference = 8AE307942D615F9300F12AC8 /* Screen Occlusion Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AE3076C2D615F9100F12AC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8AE307712D615F9200F12AC8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					8AE307772D615F9200F12AC8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					8AE307892D615F9300F12AC8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8AE307772D615F9200F12AC8;
+					};
+					8AE307932D615F9300F12AC8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8AE307772D615F9200F12AC8;
+					};
+				};
+			};
+			buildConfigurationList = 8AE3076F2D615F9100F12AC8 /* Build configuration list for PBXProject "Screen Occlusion" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AE3076B2D615F9100F12AC8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8AE307732D615F9200F12AC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AE307712D615F9200F12AC8 /* Screen Occlusion */,
+				8AE307772D615F9200F12AC8 /* Screen Occlusion Watch App */,
+				8AE307892D615F9300F12AC8 /* Screen Occlusion Watch AppTests */,
+				8AE307932D615F9300F12AC8 /* Screen Occlusion Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AE307702D615F9200F12AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE307762D615F9200F12AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE307882D615F9300F12AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE307922D615F9300F12AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AE307742D615F9200F12AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE307862D615F9300F12AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE307902D615F9300F12AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AE3077B2D615F9200F12AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AE307772D615F9200F12AC8 /* Screen Occlusion Watch App */;
+			targetProxy = 8AE3077A2D615F9200F12AC8 /* PBXContainerItemProxy */;
+		};
+		8AE3078C2D615F9300F12AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AE307772D615F9200F12AC8 /* Screen Occlusion Watch App */;
+			targetProxy = 8AE3078B2D615F9300F12AC8 /* PBXContainerItemProxy */;
+		};
+		8AE307962D615F9300F12AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AE307772D615F9200F12AC8 /* Screen Occlusion Watch App */;
+			targetProxy = 8AE307952D615F9300F12AC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8AE3079C2D615F9400F12AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AE3079D2D615F9400F12AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8AE3079F2D615F9400F12AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Screen Occlusion Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SSUL8MHM37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Screen Occlusion";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Screen-Occlusion.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		8AE307A02D615F9400F12AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Screen Occlusion Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SSUL8MHM37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Screen Occlusion";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Screen-Occlusion.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		8AE307A32D615F9400F12AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSUL8MHM37;
+				INFOPLIST_KEY_CFBundleDisplayName = "Screen Occlusion";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Screen-Occlusion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8AE307A42D615F9400F12AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSUL8MHM37;
+				INFOPLIST_KEY_CFBundleDisplayName = "Screen Occlusion";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Screen-Occlusion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AE307A62D615F9400F12AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSUL8MHM37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Screen-Occlusion-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Screen Occlusion Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Screen Occlusion Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		8AE307A72D615F9400F12AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSUL8MHM37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Screen-Occlusion-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Screen Occlusion Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Screen Occlusion Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		8AE307A92D615F9400F12AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSUL8MHM37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Screen-Occlusion-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Screen Occlusion Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		8AE307AA2D615F9400F12AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SSUL8MHM37;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "swift.Screen-Occlusion-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Screen Occlusion Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AE3076F2D615F9100F12AC8 /* Build configuration list for PBXProject "Screen Occlusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE3079C2D615F9400F12AC8 /* Debug */,
+				8AE3079D2D615F9400F12AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE3079E2D615F9400F12AC8 /* Build configuration list for PBXNativeTarget "Screen Occlusion Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE3079F2D615F9400F12AC8 /* Debug */,
+				8AE307A02D615F9400F12AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE307A22D615F9400F12AC8 /* Build configuration list for PBXNativeTarget "Screen Occlusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE307A32D615F9400F12AC8 /* Debug */,
+				8AE307A42D615F9400F12AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE307A52D615F9400F12AC8 /* Build configuration list for PBXNativeTarget "Screen Occlusion Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE307A62D615F9400F12AC8 /* Debug */,
+				8AE307A72D615F9400F12AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE307A82D615F9400F12AC8 /* Build configuration list for PBXNativeTarget "Screen Occlusion Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE307A92D615F9400F12AC8 /* Debug */,
+				8AE307AA2D615F9400F12AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AE3076C2D615F9100F12AC8 /* Project object */;
+}
